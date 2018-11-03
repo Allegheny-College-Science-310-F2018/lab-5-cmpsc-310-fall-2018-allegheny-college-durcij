@@ -64,6 +64,7 @@ namespace CompleteProject
 
             // Reduce the current health by the damage amount.
             currentHealth -= amount;
+            HealthManager.health -= amount;
 
             // Set the health bar's value to the current health.
             healthSlider.value = currentHealth;
