@@ -25,7 +25,12 @@ namespace CompleteProject
         void Update ()
         {
             // Set the displayed text to be the word "Score" followed by the score value.
-            text.text = "Score: " + score;
+            if(score <= 1500)
+            {
+                text.text = "Score: " + score;
+            } else {
+                text.text = "Score: 1500";
+            }
         }
     }
 }

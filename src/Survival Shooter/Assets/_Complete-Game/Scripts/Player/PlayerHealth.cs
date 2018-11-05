@@ -88,6 +88,7 @@ namespace CompleteProject
 
             // Turn off any remaining shooting effects.
             playerShooting.DisableEffects ();
+            currentHealth = 0;
 
             // Tell the animator that the player is dead.
             anim.SetTrigger ("Die");

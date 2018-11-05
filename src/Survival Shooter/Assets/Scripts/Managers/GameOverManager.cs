@@ -6,7 +6,6 @@ namespace CompleteProject
     {
         public PlayerHealth playerHealth;       // Reference to the player's health.
 
-
         Animator anim;                          // Reference to the animator component.
 
 
@@ -24,6 +23,11 @@ namespace CompleteProject
             {
                 // ... tell the animator the game is over.
                 anim.SetTrigger ("GameOver");
+            }
+
+            if(ScoreManager.score >= 1500)
+            {
+                anim.SetTrigger ("Win");
             }
         }
     }
