@@ -67,6 +67,13 @@ namespace CompleteProject
                 // ... tell the animator the player is dead.
                 anim.SetTrigger ("PlayerDead");
             }
+
+            // If the player's score is higher than 1000...
+            if(ScoreManager.score >= 1000)
+            {
+                // ... fast attack.
+                timeBetweenAttacks = .25f;
+            }
         }
 
 

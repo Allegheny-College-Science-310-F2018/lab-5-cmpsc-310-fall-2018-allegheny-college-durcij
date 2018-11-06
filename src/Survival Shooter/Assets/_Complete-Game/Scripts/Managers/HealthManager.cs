@@ -19,6 +19,11 @@ public class HealthManager : MonoBehaviour {
 
 	void Update ()
 	{
+			if(health < 0)
+			{
+				text.text = "HP: 0";
+			} else {
 			text.text = "HP: " + health;
+			}
 	}
 }
