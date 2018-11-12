@@ -2,7 +2,9 @@
 
 ## AI
 
+### Algorithm
 
+I have yet to fully implement an algorithm, but at the moment, I have added a new state that I call "Angry," wherein the enemies attack twice as fast, hitting 4 times per second, as opposed to the standard 2 times per second.
 
 ## Visual
 
