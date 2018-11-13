@@ -62,7 +62,7 @@ public class EnemyAttack : MonoBehaviour
     {
         timer = 0f;
 
-        if(playerHealth.currentHealth > 0)
+        if(playerHealth.currentHealth > 0 || ScoreManager.score < 1500)
         {
             playerHealth.TakeDamage (attackDamage);
         }
