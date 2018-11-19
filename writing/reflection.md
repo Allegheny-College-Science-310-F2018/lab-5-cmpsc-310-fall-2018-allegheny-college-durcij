@@ -1,1 +1,3 @@
-# Reflection by 
+# Reflection by Jordan Durci
+
+There were a lot of challenges faced on this project when it comes to the algorithm.  I was hoping that referencing the program in which a little map was made would help me find a way to work this out, but it was not so easy.  That said, I began making visual changes before this section of the lab even came out, being the tweaks to the player character.  The emmissives came next, followed by the lighting and UI tweaks detailed in the gameModification.md file.  One visual change didn't pan out, as I wanted to make the lighting change to a red tone when the anger status was initiated on the enemies.  Sadly, I couldn't figure out how to make the lighting change, and the code I saw online was not working for me in that way.
